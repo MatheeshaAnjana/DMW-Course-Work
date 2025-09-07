@@ -6,7 +6,7 @@
 @section('content')
     <div class="card">
         <div class="card-body">
-            <h2 class="card-title">Create Event</h2>
+            <h2 class="card-title">Create New Event</h2>
             <form action="{{ url('/event/store') }}" method="POST">
                 @csrf
                 <div class="form-group mb-3">
